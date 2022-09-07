@@ -1,0 +1,123 @@
+body {
+    background-color: black;
+    font-family: Roboto, Arial;
+    margin-top: 55px;
+    margin-left: 175px;
+}
+
+.tweet-container {
+    display: flex;
+    border: 1px solid rgb(83, 100, 113);
+    flex: 1;
+}
+
+.reply-settings-container {
+   margin-bottom: 10px;
+   margin-left: 5px;
+   margin-top: 10px;
+}
+
+.reply-settings {
+    color: #1c9aee;
+    border: 1px solid rgb(83, 100, 113);
+    padding: 1px 12px;
+    border-radius: 15px;
+    background-color: black;
+    font-size: 14px;
+    font-weight: 600; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.dropdown {
+    height: 14px;
+    margin-left: 5px;
+    margin-top: 1px;
+}
+
+.profile-picture {
+    height: 48px;
+    border-radius: 24px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.tweet {
+    color: gray;
+    background-color: black;
+    border: none;
+    width: 502px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 20px;
+    font-stretch: 100%;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+input, select, .tweet{
+    color: white;
+}
+
+.tweet:focus, input:focus {
+    color: white;
+}
+
+.globe-button {
+    background-color: black;
+    border: none;
+    color: #1c9aee;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-bottom: 15px;
+    font-size: 14px;
+    font-weight: 700;
+    border-bottom: 1px solid rgb(83, 100, 113);
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.globe-icon {
+    height: 16px;
+    margin-right: 5px;
+}
+
+.tweet-icons {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 17px;
+    margin-left: 5px;
+    
+}
+
+.media-logo,
+.gif-logo,
+.poll-logo,
+.emoji-logo,
+.schedule-logo {
+    margin-right: 15px;
+    height: 21px;
+    cursor:pointer;
+}
+
+.tweet-button {
+    background-color: rgb(29, 155, 240);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    min-height: 36px;
+    min-width: 36px;
+    padding: 0px 20px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 245px;
+    cursor: pointer;
+}
+
