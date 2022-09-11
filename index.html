@@ -5,11 +5,15 @@
         <link rel="stylesheet" href="styles/main.css">
         <link rel="stylesheet" href="styles/header.css">
         <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/right-sidebar.css"
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     </head>
     
     <body>
         <main>
+            <header>
+                <div class="blur"><span>Home</span></div>
+            </header>
             <div class="tweet-container">
                 <div>
                     <img class="profile-picture" src="account-pictures/dbgHRzrP_400x400.jpeg">
@@ -28,34 +32,42 @@
                             Everyone Can Reply
                         </button>
                     </div>
-                    <div class="tweet-icons">
+                    <div class="tweet-icons" style="margin-bottom: 3000px;">
                             <img class="media-logo" src="icons/media.svg">
                             <img class="gif-logo" src="icons/gif.svg">
                             <img class="poll-logo" src="icons/poll.svg">
                             <img class="emoji-logo" src="icons/emoji.svg">
                             <img class="schedule-logo" src="icons/schedule.svg">
                             <button class="tweet-button">
-                                Tweeet
+                                Tweet
                             </button>
                     </div>
                 </div>  
             </div>
         </main>
         
-        <header>
-            <div class="middle-part">
 
-            </div>
 
-            <div class="right-part">
-
-            </div>
-        </header>
-
-        <nav>
+        <nav class="left-sidebar">
             <div class="sidebar-link">
-                <a href="https://www.twitter.com"><img src="icons/twitter-logo.svg"></a>
-              </div>     
+                <a href="https://www.twitter.com"><img class="twitter-logo" src="icons/twitter-logo.svg"></a>
+                <img class="home-logo" src="icons/home-logo.svg">
+                <img class="explore-logo" src="icons/explore.svg">
+                <img class="notifications-logo" src="icons/notifications.svg">
+                <img class="inbox-logo" src="icons/inbox.svg">
+                <img class="bookmark-logo" src="icons/bookmark.svg">
+                <img class="lists-logo" src="icons/lists.svg">
+                <img class="profile-logo" src="icons/profile.svg">
+                <img class="more-logo" src="icons/more.svg">
+                <button class="write-tweet-button">
+                    <img src="icons/write-tweet.svg">
+                </button>
+                
+            </div>     
+        </nav>
+
+        <nav class="right-sidebar">
+
         </nav>
 
         <aside>

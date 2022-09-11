@@ -1,8 +1,9 @@
 header {
     height: 55px;
-    width: 100%;
+    width: 62.5rem;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     position: fixed;
     top: 0px;
     right: 0px;
@@ -14,10 +15,6 @@ header {
     border-left: 1px solid rgb(83, 100, 113);
     border-right: 1px solid rgb(83, 100, 113);
 }
-
-/*
-- Header is way too big and takes up all of the top 
-*/
 
 /*
 .blur {
