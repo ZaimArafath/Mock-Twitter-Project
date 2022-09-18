@@ -1,13 +1,19 @@
+@font-face {
+    font-family: 'chirp-bold';
+    src: url(../Fonts/chirp-bold-web.woff);
+}
+
 header {
     height: 55px;
-    width: 100%;
+    width: 43.62500rem; 
     display: flex;
     flex-direction: row;
+    align-items: flex-end;
+    margin-left: 46.55rem;
     position: fixed;
     top: 0px;
     right: 0px;
-    left: 0x;
-    background-color: white;
+    left: 0px;
     border: none;
     z-index: 1;
     font-family: Roboto, Arial;
@@ -19,15 +25,15 @@ header {
 - Header is way too big and takes up all of the top 
 */
 
-/*
+
 .blur {
     display: flex;
-    height: 40px; 
     width: 100%;
+    height: 100%;
     position:relative;
     font-size:20px;
     color: white;
-    padding-left: 180px;
+ /*   padding-left: 160px; */
     align-items: center;
 }
 
@@ -47,9 +53,12 @@ header {
     z-index: 1;
   }
 
+
 .home-text {
     color: white;
+    margin-left: 10px;
+    font-weight: 700px;
+    font-family: "chirp-bold";
 }
 
 
-*/

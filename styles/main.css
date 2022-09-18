@@ -1,7 +1,16 @@
+@font-face {
+    font-family: 'chirp-regular';
+    src: url(../Fonts/chirp-regular-web.woff);
+}
+
+main {
+    border-left: 1px solid rgb(83, 100, 113);
+    border-right: 1px solid rgb(83, 100, 113);
+}
+
 body {
     background-color: black;
-    font-family: Roboto, Arial;
-    margin-left: 0 auto;
+    font-family: "chirp-regular";
     margin-right: 0 auto;
     margin-top: 55px;
     margin-left: 175px;
@@ -12,7 +21,6 @@ body {
 
 .tweet-container {
     display: flex;
-    border: 1px solid rgb(83, 100, 113);
     flex: 1;
 }
 
@@ -65,12 +73,18 @@ body {
     outline: none;
 }
 
+.tweet ::placeholder {
+    font-family: "chirp-regular";
+}
+
 input, select, .tweet{
     color: white;
+    font-family: "chirp-regular";
 }
 
 .tweet:focus, input:focus {
     color: white;
+    font-family: "chirp-regular";
 }
 
 .globe-button {
