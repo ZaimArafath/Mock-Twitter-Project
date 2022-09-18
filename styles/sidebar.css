@@ -1,15 +1,21 @@
-.left-sidebar {
-    position: fixed;
-    left: 0px;
-    bottom: 0px;
-    top: 0px;
-    background-color: black;
-    width: 36rem; 
-    z-index: 2;
-    padding-top:  5px;
+.leftbar {
+    background-color: blue;
 }
 
+.left-sidebar {
+/*
+    position: fixed;
+   left: 0px;
+    bottom: 0px;
+    top: 0px;
+    width: 36rem;
 
+    z-index: 2;
+    padding-top:  5px;
+*/
+}
+
+/*
 
 .sidebar-link {
     height: 500px; 
@@ -42,3 +48,4 @@
     border: none;
 }
 
+*/

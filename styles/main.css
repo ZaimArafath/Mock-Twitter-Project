@@ -3,21 +3,37 @@
     src: url(../Fonts/chirp-regular-web.woff);
 }
 
-main {
-    border-left: 1px solid rgb(83, 100, 113);
-    border-right: 1px solid rgb(83, 100, 113);
+.wrapper {
+    display: grid;
+    grid-template-columns: 3fr 2fr 3fr;
+    height: 100vh;
 }
 
+main {
+    background-color: beige;
+/*    border-left: 1px solid rgb(83, 100, 113);
+    border-right: 1px solid rgb(83, 100, 113);
+*/
+}
+
+/*
 body {
     background-color: black;
     font-family: "chirp-regular";
+
+*/
+/*
     margin-right: 0 auto;
     margin-top: 55px;
     margin-left: 175px;
+*/
+/*
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+/*
 
 .tweet-container {
     display: flex;
@@ -139,4 +155,6 @@ input, select, .tweet{
     margin-left: 245px;
     cursor: pointer;
 }
+
+*/
 
