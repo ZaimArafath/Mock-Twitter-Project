@@ -21,9 +21,8 @@ main {
     background-color: black;
     border-left: 1px solid rgb(83, 100, 113);
     border-right: 1px solid rgb(83, 100, 113);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-rows: 589.97px auto;
 
 }
 
@@ -36,7 +35,11 @@ body {
 
 .tweet-container {
     display: flex;
+    width: 589.97px;
     flex: 1;
+    top: 0;
+    height: 200px;
+    border-bottom: 1px solid rgb(83, 100, 113);
 }
 
 .reply-settings-container {
@@ -84,7 +87,7 @@ body {
      padding-bottom: 12px;
      font-size: 20px;
      font-stretch: 100%;
-     margin-bottom: 20px;
+     margin-bottom: 20px; 
      outline: none;
  }
  
@@ -126,8 +129,9 @@ body {
      display: flex;
      align-items: center;
      flex-direction: row;
-     margin-bottom: 17px;
+     margin-bottom: 20px;
      margin-left: 5px;
+    padding-bottom: 20px;
      
  }
  
@@ -157,7 +161,51 @@ body {
      margin-right: 10px;
  }
  
+.tweet-deen-bot {
+    border-bottom: 1px solid rgb(83, 100, 113);
+    border-top: 1px solid rgb(83, 100, 113);
+}
+
+ .account-details {
+    font-weight: 600;
+    display: flex;
+ }
+
+ .account-name {
+    margin-top: 0.75rem;
+    font-family: "chirp-bold";
+ }
+
+ .deenbot {
+    font-family: "chirp-regular";
+    color: gray;
+ }
+
+ .caption {
+    margin-top: 40px;
+    margin-left: -177px;
+ }
+
+ .post-wrapper {
+    padding-left: 3.75rem;
+    padding-right: 0.313rem;
+ }
  
+ .post {
+   width: 500px;
+ }
+
+ .likes {
+    padding: 3.75rem;
+ }
+
+ .comment-post,
+ .retweet-post,
+ .like-post,
+ .share {
+    margin-right: 90px;
+    width: 20px;
+ }
  
  
 /*
