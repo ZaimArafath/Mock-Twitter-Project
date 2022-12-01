@@ -3,6 +3,7 @@ html, body{
     margin: 0;
  }
 
+
 @font-face {
     font-family: 'chirp-regular';
     src: url(../Fonts/chirp-regular-web.woff);
@@ -19,7 +20,6 @@ html, body{
 .wrapper {
     display: grid;
     grid-template-columns: 3fr 2fr 3fr;
-    height: 100vh;
 }
 
 main {
@@ -175,14 +175,15 @@ body {
 
 .tweet-grid {
     display: grid;
-    grid-template-rows: 2fr 2fr 2fr;
+    grid-template-rows: repeat(3, 2fr);
+    row-gap: 3px;
 }
 
 .tweet-info-grid {
     display: grid;
     grid-template-columns: 50px 1fr;
-    justify-content: center;
-    align-items: center;
+ /*   justify-content: center;
+    align-items: center; */
     margin-top: 5px;
 
 }
@@ -233,17 +234,79 @@ body {
 }
 
 
+.venerate-post {
+    width: 25rem;
+    border-radius: 20px;
+    margin-top: 3px;
+}
+
+.post-options-row {
+    /*
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    */
+    display: flex;
+    justify-content: space-between;
+    margin-right: 90px;
+    margin-bottom: 15px;
+    
+}
+
+.comment-post,
+.retweet-post,
+.like-post,
+.share {
+    width: 15px;
+    margin-top: 5px;
+}
+
+.comment-count,
+.retweet-count {
+    color: #71767b;
+    font-size: 10px;   
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}
+
+.comment-count:hover {
+    color:rgb(29, 155, 240);
+    cursor: pointer;
+}
+
+.retweet-count:hover {
+    color: #1ab57f;
+    cursor: pointer;
+}
+
+
+.like-count {
+    color: #f92f80;
+    font-size: 10px;
+    line-height: 10px;
+    margin-top: 0.2rem;
+    margin-left: 1rem;
+}
+
+
+.comments,
+.retweets,
+.likes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.tweet {
+    border-bottom: 1px solid rgb(83, 100, 113);
+}
 
 
 
-
-
-
-
-
-
-
-
+.y00tsNFT {
+    color: #1b90df;
+}
 
 
 
