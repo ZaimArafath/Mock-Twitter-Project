@@ -3,6 +3,9 @@ html, body{
     margin: 0;
  }
 
+ main {
+    margin-bottom: 1000px;
+ }
 
 @font-face {
     font-family: 'chirp-regular';
@@ -175,7 +178,7 @@ body {
 
 .tweet-grid {
     display: grid;
-    grid-template-rows: repeat(3, 2fr);
+    grid-template-rows: repeat(6, auto);
     row-gap: 3px;
 }
 
@@ -200,7 +203,6 @@ body {
     color: #494c50;
     margin-left: 8px;
     font-family: "chirp-regular";
-    font-size: 14px;
     
 
 }
@@ -215,15 +217,17 @@ body {
 
 .stats-wrapper {
     display: grid;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 5px;
     align-items: center;
+    margin-top: 5px;
 }
 
 .tweet-caption {
-    font-size: 12px;
+    font-size: 13px;
     font-family:"chirp-regular";
     margin-left: 8px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
 
 }
 
@@ -249,6 +253,8 @@ body {
     justify-content: space-between;
     margin-right: 90px;
     margin-bottom: 15px;
+    margin-top: 5px;
+    margin-left: 6px;
     
 }
 
@@ -308,7 +314,18 @@ body {
     color: #1b90df;
 }
 
+.y00ts-gap {
+    display: block;
+    margin-top: 15px;
+}
 
+.stats-gap {
+    margin-bottom: 0px;
+}
+
+.tweet-caption-gap {
+    margin-bottom: 5px;
+}
 
 /*
 .tweet-deen-bot {
