@@ -2,41 +2,21 @@ body {
     background-color: black;
 }
 
-.post-options-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+.whatshappening {
+    background-color: #212326;
+    margin-left: 20px;  
 }
 
-.comment-post,
-.retweet-post,
-.like-post,
-.share {
- /*   margin-right: 90px; */
-    width: 20px;
-    margin-top: 5px;
+.whatshappening-heading {
+    font-family: 'chirp-bold';
+    padding-left: 7px;
 }
 
-.comment-count,
-.retweet-count {
-    color: #71767b;
-    font-size: 13px;
-    margin-left: 2rem;
+.cell1 {
+    color: #52565b;
 }
 
-.like-count {
-    color: #f92f80;
-    font-size: 13px;
-    line-height: 10px;
-    margin-left: 2rem;
+.cell-header {
+    font-family: 'chirp-bold';
+    color: white;
 }
-
-
-.comments,
-.retweets,
-.likes {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
